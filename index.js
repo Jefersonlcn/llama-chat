@@ -11,7 +11,7 @@ let assistantResponse = "";
 function createWindow() {
   mainWindow = new BrowserWindow({
     minHeight: 300,
-    minWidth: 400,
+    minWidth: 450,
     autoHideMenuBar: true,
     icon: path.join(__dirname, "./assets/llama-logo.png"),
     webPreferences: {
